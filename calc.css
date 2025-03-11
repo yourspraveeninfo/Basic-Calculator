@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ffffff;
     font-family: sans-serif;
     outline: none;
 }
 .Container
 {
+    background-image: url('./background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,7 +21,7 @@
     background-color: #000000;
     padding: 15px;
     border-radius: 30px;
-    box-shadow: inset -5px -5px 12px rgb(114, 114, 114), inset 5px 5px 12px rgb(214, 214, 214);
+    box-shadow: -5px -5px 12px #000000, inset -5px -5px 12px #3e3e3e,inset 5px 5px 12px rgb(114, 114, 114), 5px 5px 12px rgb(0, 0, 0);
     display: grid;
     grid-template-columns: repeat(4,70px);
 }
